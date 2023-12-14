@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*  sass template */
+/*  global classes  */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Template  */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+/*top sales template*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+.owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+  padding: 2rem;
+}
+
+.owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+
+.owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  left: 2rem;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span {
+  font-size: 50px;
+  color: #003859;
+  padding: 2 2rem;
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -8rem;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+  margin-right: -8rem;
+}
+
+.services {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.services__item {
+  padding-left: 65px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.services__item i {
+  font-size: 36px;
+  color: #ca1515;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+.services__item h6 {
+  color: #111111;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.services__item p {
+  margin-bottom: 0;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+/*contact*/
+
+Contact
+-----------------------*/
+
+.contact {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.contact__address {
+	margin-bottom: 45px;
+}
+
+.contact__address h5 {
+	color: #111111;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.contact__address ul li {
+	list-style: none;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.contact__address ul li:last-child {
+	margin-bottom: 0;
+}
+
+.contact__address ul li h6 {
+	color: #111111;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.contact__address ul li h6 i {
+	font-size: 16px;
+	color: #ca1515;
+	margin-right: 5px;
+}
+
+.contact__address ul li p {
+	margin-bottom: 0;
+	font-size: 15px;
+	color: #444444;
+}
+
+.contact__address ul li span {
+	font-size: 15px;
+	color: #444444;
+	display: inline-block;
+	margin-right: 25px;
+	position: relative;
+}
+
+.contact__address ul li span:after {
+	position: absolute;
+	right: -15px;
+	top: 11px;
+	content: "|";
+	line-height: 0;
+}
+
+.contact__address ul li span:last-child {
+	margin-right: 0;
+}
+
+.contact__address ul li span:last-child:after {
+	display: none;
+}
+
+.contact__form h5 {
+	color: #111111;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.contact__form form input {
+	height: 50px;
+	width: 100%;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #444444;
+	border: 1px solid #e1e1e1;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.contact__form form input::-webkit-input-placeholder {
+	color: #444444;
+}
+
+.contact__form form input::-moz-placeholder {
+	color: #444444;
+}
+
+.contact__form form input:-ms-input-placeholder {
+	color: #444444;
+}
+
+.contact__form form input::-ms-input-placeholder {
+	color: #444444;
+}
+
+.contact__form form input::placeholder {
+	color: #444444;
+}
+
+.contact__form form textarea {
+	height: 130px;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 12px;
+	font-size: 14px;
+	color: #444444;
+	border: 1px solid #e1e1e1;
+	border-radius: 10px;
+	margin-bottom: 14px;
+	resize: none;
+}
+
+.contact__form form textarea::-webkit-input-placeholder {
+	color: #444444;
+}
+
+.contact__form form textarea::-moz-placeholder {
+	color: #444444;
+}
+
+.contact__form form textarea:-ms-input-placeholder {
+	color: #444444;
+}
+
+.contact__form form textarea::-ms-input-placeholder {
+	color: #444444;
+}
+
+.contact__form form textarea::placeholder {
+	color: #444444;
+}
+
+.contact__map {
+	height: 780px;
+}
+
+.contact__map iframe {
+	width: 100%;
+}
+
+.site-btn {
+	font-size: 14px;
+	color: #ffffff;
+	background: #ca1515;
+	font-weight: 600;
+	border: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 12px 30px;
+	border-radius: 50px;
+}
+.contact__map {
+	height: 780px;
+}
+
+.contact__map iframe {
+	width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
